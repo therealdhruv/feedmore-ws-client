@@ -1,9 +1,13 @@
-import React from "react"
+import Form from "../components/Form";
 
-export default function App() {
+import React from "react";
+
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
-}
+    <div className="bg-[#D8DEE9]">
+      <Form />
+    </div>
+  );
+};
+
+export default App;
