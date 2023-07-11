@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import UploadAndDisplayImage from "../components/UploadAndDisplayImage";
+import UploadAndDisplayImage from "./UploadAndDisplayImage";
 import InputCounter from "./InputCounter";
 
 

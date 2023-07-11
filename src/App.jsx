@@ -1,12 +1,14 @@
-import Form from "../components/Form";
+import Form from "./components/Form";
 
 import React from "react";
 
 const App = () => {
   return (
-    <div className="bg-[#D8DEE9]">
-      <Form />
-    </div>
+    <>
+      <div className="bg-[#D8DEE9]">
+        <Form />
+      </div>
+    </>
   );
 };
 
